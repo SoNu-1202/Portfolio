@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sonu | First-Year CS Student Portfolio</title>
+  <meta name="description" content="Personal portfolio of Sonu, a passionate first-year Computer Science undergraduate and aspiring software engineer showcasing education, projects, achievements, and technical skills." />
+
+  <!-- Google Fonts for Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+
+  <!-- ========================================================
+       NAVIGATION BAR
+       Sticky header with blur glassmorphism and mobile toggle
+       ======================================================== -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#top" class="nav-brand">
+        <span class="brand-icon"><i class="fa-solid fa-code"></i></span>
+        <span class="brand-name">Sonu<span class="brand-dot">.dev</span></span>
+      </a>
+
+      <!-- Pure CSS Mobile Menu Toggle -->
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox" aria-label="Toggle navigation menu" />
+      <label for="menu-toggle" class="menu-burger" aria-label="Open menu">
+        <i class="fa-solid fa-bars open-icon"></i>
+        <i class="fa-solid fa-xmark close-icon"></i>
+      </label>
+
+      <!-- Navigation Links with Respective Icons -->
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#about" class="nav-link">
+              <i class="fa-solid fa-user nav-ico"></i> About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">
+              <i class="fa-solid fa-graduation-cap nav-ico"></i> Education
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">
+              <i class="fa-solid fa-briefcase nav-ico"></i> Experience
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#achievements" class="nav-link">
+              <i class="fa-solid fa-trophy nav-ico"></i> Achievements
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">
+              <i class="fa-solid fa-laptop-code nav-ico"></i> Skills
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">
+              <i class="fa-solid fa-paper-plane nav-ico"></i> Contact
+            </a>
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-sm btn-primary">
+            <i class="fa-solid fa-handshake"></i> Let's Connect
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================
+         HERO SECTION: Personal Introduction & Quick Overview
+         ======================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-background-glow glow-1"></div>
+      <div class="hero-background-glow glow-2"></div>
+
+      <div class="container hero-container">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <!-- Availability Badge -->
+          <div class="status-badge">
+            <span class="status-pulse"></span>
+            <i class="fa-solid fa-circle-check status-icon"></i>
+            <span>First-Year Student &bull; Open to Projects &amp; Internships</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Sonu</span>
+            <span class="wave-emoji">&#128075;</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            <i class="fa-solid fa-terminal"></i> Aspiring Software Engineer &amp; CS Undergraduate
+          </h2>
+
+          <p class="hero-description">
+            A passionate first-year computer science student driven by curiosity to build beautiful, functional web applications and solve algorithmic challenges. Currently diving deep into data structures, modern frontend design, and AI fundamentals.
+          </p>
+
+          <!-- Quick Highlight Pills -->
+          <div class="hero-meta">
+            <span class="meta-item">
+              <i class="fa-solid fa-university meta-icon"></i> 1st Year B.Tech / CS
+            </span>
+            <span class="meta-item">
+              <i class="fa-solid fa-location-dot meta-icon"></i> India
+            </span>
+            <span class="meta-item">
+              <i class="fa-solid fa-calendar-check meta-icon"></i> Class of 2028
+            </span>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">
+              <i class="fa-solid fa-envelope"></i> Get In Touch
+            </a>
+            <a href="#education" class="btn btn-secondary">
+              <i class="fa-solid fa-arrow-down"></i> Explore Portfolio
+            </a>
+          </div>
+
+          <!-- Social Communication Links -->
+          <div class="hero-socials">
+            <span class="socials-label"><i class="fa-solid fa-share-nodes"></i> Connect:</span>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:sonu.cs28@example.com" class="social-link" aria-label="Email Me">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter/X Profile">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LeetCode Profile">
+              <i class="fa-solid fa-code"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Profile Card -->
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="card-glow"></div>
+            
+            <div class="avatar-wrapper">
+              <!-- Default stylish SVG avatar representing a student developer -->
+              <div class="avatar-circle">
+                <i class="fa-solid fa-user-graduate default-avatar-icon"></i>
+              </div>
+              <span class="active-badge" title="Actively Learning & Coding"></span>
+            </div>
+
+            <div class="profile-info">
+              <h3 class="profile-name">Sonu</h3>
+              <p class="profile-role"><i class="fa-solid fa-laptop-code"></i> Tech Enthusiast</p>
+            </div>
+
+            <!-- Mini stats grid inside card -->
+            <div class="profile-stats">
+              <div class="stat-box">
+                <span class="stat-number"><i class="fa-solid fa-fire text-amber"></i> 1st</span>
+                <span class="stat-label">Year CS</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number"><i class="fa-solid fa-laptop-file text-cyan"></i> 8+</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number"><i class="fa-solid fa-code-commit text-emerald"></i> 100+</span>
+                <span class="stat-label">DSA Solved</span>
+              </div>
+            </div>
+
+            <!-- Floating tech pills -->
+            <div class="tech-pills-list">
+              <span class="tech-pill"><i class="fa-brands fa-html5 text-orange"></i> HTML5</span>
+              <span class="tech-pill"><i class="fa-brands fa-css3-alt text-blue"></i> CSS3</span>
+              <span class="tech-pill"><i class="fa-brands fa-python text-yellow"></i> Python</span>
+              <span class="tech-pill"><i class="fa-solid fa-c text-purple"></i> C/C++</span>
+              <span class="tech-pill"><i class="fa-brands fa-git-alt text-red"></i> Git</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         ABOUT ME & PERSONAL DETAILS SECTION
+         ======================================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-pill">
+            <i class="fa-solid fa-id-badge"></i> Personal Overview
+          </div>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">
+            Get to know my journey, academic background, interests, and what drives my passion for technology.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left: Narrative Details -->
+          <div class="about-narrative">
+            <h3 class="about-greeting">
+              <i class="fa-solid fa-compass text-indigo"></i> Driven by curiosity, fueled by code.
+            </h3>
+            <p>
+              Hello! I am a freshman currently pursuing my undergraduate degree in Computer Science and Engineering. My journey with coding started with a simple "Hello World" in Python, and since then, I have been captivated by how lines of code can create software that impacts people worldwide.
+            </p>
+            <p>
+              As a beginner, I am proactive about turning theoretical concepts into real projects. Whether it is understanding algorithms, building pixel-perfect websites with HTML &amp; CSS, or collaborating with peers in coding clubs, I enjoy every step of the learning process.
+            </p>
+
+            <!-- Detailed Personal Info Grid -->
+            <div class="personal-info-grid">
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-user-check"></i></div>
+                <div>
+                  <span class="info-label">Full Name</span>
+                  <strong class="info-value">Sonu Kumar</strong>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div>
+                  <span class="info-label">Current Level</span>
+                  <strong class="info-value">1st Year Undergraduate</strong>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-language"></i></div>
+                <div>
+                  <span class="info-label">Languages</span>
+                  <strong class="info-value">English, Hindi</strong>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                <div>
+                  <span class="info-label">Location</span>
+                  <strong class="info-value">New Delhi, India</strong>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                <div>
+                  <span class="info-label">Email Status</span>
+                  <strong class="info-value">Verified &amp; Active</strong>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <div>
+                  <span class="info-label">Availability</span>
+                  <strong class="info-value text-emerald">Immediate / Part-time</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Key Focus Highlights -->
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon icon-cyan">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div class="highlight-body">
+                <h4>Web Craftsmanship</h4>
+                <p>Creating responsive, semantic, and accessible websites utilizing clean HTML5 structure and modern CSS3 animations.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon icon-indigo">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
+              <div class="highlight-body">
+                <h4>Data Structures &amp; Problem Solving</h4>
+                <p>Sharpening logical thinking with daily practice in basic data structures, time complexity analysis, and algorithms in C++ &amp; Python.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon icon-emerald">
+                <i class="fa-solid fa-users-gear"></i>
+              </div>
+              <div class="highlight-body">
+                <h4>Teamwork &amp; Continuous Growth</h4>
+                <p>Active participant in campus hackathons, technical societies, and peer mentoring to foster collaborative growth.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon icon-purple">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="highlight-body">
+                <h4>AI &amp; Emerging Tech Curiosity</h4>
+                <p>Exploring the frontiers of machine learning, prompt engineering, and intelligent tools reshaping modern software development.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         EDUCATION SECTION
+         Academic qualifications, institutions, and coursework
+         ======================================================== -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-pill">
+            <i class="fa-solid fa-graduation-cap"></i> Academic Pathway
+          </div>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <p class="section-subtitle">
+            A strong academic foundation in science, mathematics, and computer engineering principles.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Card 1: University Degree -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot">
+                <i class="fa-solid fa-building-columns"></i>
+              </div>
+              <div class="marker-line"></div>
+            </div>
+
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-badge badge-active">
+                  <i class="fa-solid fa-clock"></i> 2024 &ndash; 2028 (Currently Enrolled)
+                </span>
+                <span class="timeline-grade">
+                  <i class="fa-solid fa-award text-amber"></i> CGPA: 8.9 / 10.0 (First Sem)
+                </span>
+              </div>
+
+              <h3 class="timeline-title">
+                <i class="fa-solid fa-graduation-cap text-indigo"></i> Bachelor of Technology (B.Tech) in Computer Science &amp; Engineering
+              </h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-location-dot"></i> National Institute of Technology / University Campus &bull; New Delhi
+              </h4>
+
+              <p class="timeline-text">
+                Immersed in first-year computer science coursework covering foundation algorithms, object-oriented concepts, digital logic design, and discrete mathematics. Actively engaging in laboratory sessions and collaborative software assignments.
+              </p>
+
+              <div class="coursework-section">
+                <span class="coursework-title"><i class="fa-solid fa-book-bookmark"></i> Key Coursework &amp; Modules:</span>
+                <div class="coursework-tags">
+                  <span class="tag"><i class="fa-solid fa-angle-right"></i> Problem Solving &amp; C Programming</span>
+                  <span class="tag"><i class="fa-solid fa-angle-right"></i> Introduction to Python</span>
+                  <span class="tag"><i class="fa-solid fa-angle-right"></i> Discrete Mathematics</span>
+                  <span class="tag"><i class="fa-solid fa-angle-right"></i> Linear Algebra &amp; Calculus</span>
+                  <span class="tag"><i class="fa-solid fa-angle-right"></i> Basic Electrical &amp; Digital Electronics</span>
+                  <span class="tag"><i class="fa-solid fa-angle-right"></i> Engineering Mechanics &amp; Physics</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Card 2: Higher Secondary / 12th Grade -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot">
+                <i class="fa-solid fa-school"></i>
+              </div>
+              <div class="marker-line"></div>
+            </div>
+
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-badge">
+                  <i class="fa-solid fa-calendar-days"></i> 2022 &ndash; 2024
+                </span>
+                <span class="timeline-grade">
+                  <i class="fa-solid fa-star text-amber"></i> Score: 94.4% (Merit Distinction)
+                </span>
+              </div>
+
+              <h3 class="timeline-title">
+                <i class="fa-solid fa-book-open text-indigo"></i> Senior Secondary School (Class XII &ndash; CBSE / State Board)
+              </h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-location-dot"></i> Delhi Public School / Senior Model School &bull; India
+              </h4>
+
+              <p class="timeline-text">
+                Completed secondary education with high distinction in Physics, Chemistry, Mathematics, and Computer Science. Secured top 2% in the school graduating batch with outstanding scores in computer science projects.
+              </p>
+
+              <div class="coursework-section">
+                <span class="coursework-title"><i class="fa-solid fa-list-check"></i> Core Subjects:</span>
+                <div class="coursework-tags">
+                  <span class="tag"><i class="fa-solid fa-check"></i> Physics</span>
+                  <span class="tag"><i class="fa-solid fa-check"></i> Chemistry</span>
+                  <span class="tag"><i class="fa-solid fa-check"></i> Mathematics</span>
+                  <span class="tag"><i class="fa-solid fa-check"></i> Computer Science (Python &amp; SQL)</span>
+                  <span class="tag"><i class="fa-solid fa-check"></i> English Core</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Card 3: High School / 10th Grade -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot">
+                <i class="fa-solid fa-certificate"></i>
+              </div>
+            </div>
+
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-badge">
+                  <i class="fa-solid fa-calendar-days"></i> 2020 &ndash; 2022
+                </span>
+                <span class="timeline-grade">
+                  <i class="fa-solid fa-medal text-amber"></i> Score: 95.8% (School Honor Roll)
+                </span>
+              </div>
+
+              <h3 class="timeline-title">
+                <i class="fa-solid fa-award text-indigo"></i> Secondary School Certificate (Class X)
+              </h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-location-dot"></i> Model Senior Secondary School &bull; India
+              </h4>
+
+              <p class="timeline-text">
+                Demonstrated all-around excellence in science, mathematics, and regional science olympiads. Recognized with the Best Science Project Award.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         WORK EXPERIENCE & LEADERSHIP SECTION
+         Internships, club involvement, open-source & campus roles
+         ======================================================== -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-pill">
+            <i class="fa-solid fa-briefcase"></i> Experience &amp; Leadership
+          </div>
+          <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+          <p class="section-subtitle">
+            Hands-on technical roles, student community leadership, and open-source contributions.
+          </p>
+        </div>
+
+        <div class="experience-grid">
+          <!-- Experience Card 1: Web Team Member / Intern -->
+          <div class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-role-info">
+                <span class="exp-type-tag tag-cyan">
+                  <i class="fa-solid fa-code"></i> Frontend Contributor
+                </span>
+                <h3 class="exp-title">Junior Web Development Trainee</h3>
+                <h4 class="exp-company">
+                  <i class="fa-solid fa-building"></i> Campus Tech Society &bull; Web Division
+                </h4>
+              </div>
+              <span class="exp-duration">
+                <i class="fa-solid fa-calendar-check"></i> Sep 2024 &ndash; Present
+              </span>
+            </div>
+
+            <p class="exp-summary">
+              Collaborating with senior student developers to design and maintain responsive web portals for college technical events and hackathons.
+            </p>
+
+            <ul class="exp-bullets">
+              <li>
+                <i class="fa-solid fa-circle-check bullet-icon"></i>
+                <span>Assisted in building responsive landing pages for the university tech fest, visited by over <strong>1,200+ attendees</strong>.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check bullet-icon"></i>
+                <span>Maintained clean, semantic HTML5 structure and reusable CSS stylesheets adhering to modern accessibility (a11y) standards.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check bullet-icon"></i>
+                <span>Version-controlled multi-developer codebases using Git and GitHub branch workflows.</span>
+              </li>
+            </ul>
+
+            <div class="exp-tech-stack">
+              <span class="stack-badge"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span class="stack-badge"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+              <span class="stack-badge"><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span class="stack-badge"><i class="fa-brands fa-github"></i> GitHub</span>
+              <span class="stack-badge"><i class="fa-solid fa-mobile-screen"></i> Responsive UI</span>
+            </div>
+          </div>
+
+          <!-- Experience Card 2: Student Club Technical Coordinator -->
+          <div class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-role-info">
+                <span class="exp-type-tag tag-purple">
+                  <i class="fa-solid fa-users"></i> Community Lead
+                </span>
+                <h3 class="exp-title">Technical Volunteer &amp; Event Coordinator</h3>
+                <h4 class="exp-company">
+                  <i class="fa-solid fa-users-rays"></i> Developer Student Club / ACM Student Chapter
+                </h4>
+              </div>
+              <span class="exp-duration">
+                <i class="fa-solid fa-calendar-check"></i> Aug 2024 &ndash; Present
+              </span>
+            </div>
+
+            <p class="exp-summary">
+              Supporting hands-on workshops and peer coding clubs for first-year engineering students to foster a strong coding culture on campus.
+            </p>
+
+            <ul class="exp-bullets">
+              <li>
+                <i class="fa-solid fa-circle-check bullet-icon"></i>
+                <span>Co-organized "Intro to Programming &amp; Git" workshop attended by <strong>80+ freshmen</strong>, facilitating live hands-on troubleshooting.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check bullet-icon"></i>
+                <span>Authored beginner-friendly documentation and setup guides for VS Code, Linux commands, and compiler installations.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check bullet-icon"></i>
+                <span>Coordinated logistics and team registrations for intra-college competitive programming rounds.</span>
+              </li>
+            </ul>
+
+            <div class="exp-tech-stack">
+              <span class="stack-badge"><i class="fa-solid fa-chalkboard-user"></i> Technical Mentorship</span>
+              <span class="stack-badge"><i class="fa-brands fa-linux"></i> Linux Basics</span>
+              <span class="stack-badge"><i class="fa-solid fa-terminal"></i> Command Line</span>
+              <span class="stack-badge"><i class="fa-solid fa-people-group"></i> Event Planning</span>
+            </div>
+          </div>
+
+          <!-- Experience Card 3: Open-Source Contributor -->
+          <div class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-role-info">
+                <span class="exp-type-tag tag-emerald">
+                  <i class="fa-brands fa-git-alt"></i> Open Source
+                </span>
+                <h3 class="exp-title">Open-Source Contributor</h3>
+                <h4 class="exp-company">
+                  <i class="fa-solid fa-globe"></i> Hacktoberfest &amp; GitHub Community
+                </h4>
+              </div>
+              <span class="exp-duration">
+                <i class="fa-solid fa-calendar-check"></i> Oct 2024
+              </span>
+            </div>
+
+            <p class="exp-summary">
+              Actively participated in global open-source events, contributing pull requests to student developer roadmaps and web design templates.
+            </p>
+
+            <ul class="exp-bullets">
+              <li>
+                <i class="fa-solid fa-circle-check bullet-icon"></i>
+                <span>Authored and merged <strong>4 verified pull requests</strong> fixing CSS alignment bugs and optimizing mobile viewport scaling.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check bullet-icon"></i>
+                <span>Reviewed community issue trackers and improved documentation for beginner-friendly coding repositories.</span>
+              </li>
+            </ul>
+
+            <div class="exp-tech-stack">
+              <span class="stack-badge"><i class="fa-brands fa-github"></i> Pull Requests</span>
+              <span class="stack-badge"><i class="fa-solid fa-code-compare"></i> Code Reviews</span>
+              <span class="stack-badge"><i class="fa-brands fa-markdown"></i> Markdown Docs</span>
+              <span class="stack-badge"><i class="fa-solid fa-bug"></i> Bug Fixing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         ACHIEVEMENTS & HONORS SECTION
+         Competitions, certifications, awards, and recognitions
+         ======================================================== -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-pill">
+            <i class="fa-solid fa-trophy"></i> Recognitions &amp; Milestones
+          </div>
+          <h2 class="section-title">Key <span class="gradient-text">Achievements</span></h2>
+          <p class="section-subtitle">
+            Milestones, awards, hackathon recognitions, and professional certifications earned so far.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Achievement Card 1 -->
+          <div class="achievement-card">
+            <div class="achieve-badge">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="achieve-content">
+              <span class="achieve-tag tag-amber"><i class="fa-solid fa-medal"></i> Finalist</span>
+              <h3 class="achieve-title">Top 10 Finalist &ndash; Freshman Hackathon 2024</h3>
+              <p class="achieve-desc">
+                Competed against 45+ freshman teams to ideate and prototype "CampusMate", a web portal for study groups and textbook sharing within 24 hours.
+              </p>
+              <div class="achieve-meta">
+                <span><i class="fa-solid fa-calendar-days"></i> Nov 2024</span>
+                <span><i class="fa-solid fa-landmark"></i> University Innovation Cell</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievement Card 2 -->
+          <div class="achievement-card">
+            <div class="achieve-badge badge-emerald">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <div class="achieve-content">
+              <span class="achieve-tag tag-emerald"><i class="fa-solid fa-circle-check"></i> Certified</span>
+              <h3 class="achieve-title">Responsive Web Design Certification</h3>
+              <p class="achieve-desc">
+                Earned freeCodeCamp's accredited 300-hour certification covering HTML5, CSS3, Flexbox, Grid, CSS animations, and web accessibility best practices.
+              </p>
+              <div class="achieve-meta">
+                <span><i class="fa-solid fa-calendar-days"></i> 2024</span>
+                <span><i class="fa-solid fa-stamp"></i> freeCodeCamp</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievement Card 3 -->
+          <div class="achievement-card">
+            <div class="achieve-badge badge-cyan">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="achieve-content">
+              <span class="achieve-tag tag-cyan"><i class="fa-solid fa-chart-line"></i> Milestone</span>
+              <h3 class="achieve-title">100+ Coding Problems Solved</h3>
+              <p class="achieve-desc">
+                Consistently solved 100+ problem statements on LeetCode &amp; HackerRank, maintaining a 45-day continuous coding streak in Python &amp; C++.
+              </p>
+              <div class="achieve-meta">
+                <span><i class="fa-solid fa-fire"></i> Active Streak</span>
+                <span><i class="fa-solid fa-code"></i> LeetCode / HackerRank</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievement Card 4 -->
+          <div class="achievement-card">
+            <div class="achieve-badge badge-purple">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="achieve-content">
+              <span class="achieve-tag tag-purple"><i class="fa-solid fa-building-columns"></i> Scholarship</span>
+              <h3 class="achieve-title">Academic Merit Scholarship Recipient</h3>
+              <p class="achieve-desc">
+                Awarded university tuition scholarship for placing in the top 3rd percentile in regional technical entrance examinations among 60,000+ candidates.
+              </p>
+              <div class="achieve-meta">
+                <span><i class="fa-solid fa-calendar-days"></i> 2024</span>
+                <span><i class="fa-solid fa-shield-halved"></i> Academic Board</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievement Card 5 -->
+          <div class="achievement-card">
+            <div class="achieve-badge badge-indigo">
+              <i class="fa-brands fa-python"></i>
+            </div>
+            <div class="achieve-content">
+              <span class="achieve-tag tag-indigo"><i class="fa-solid fa-certificate"></i> Course Certificate</span>
+              <h3 class="achieve-title">Python for Everybody Specialization</h3>
+              <p class="achieve-desc">
+                Completed university-level Python foundations covering data structures, networked application programming, web scraping, and SQLite databases.
+              </p>
+              <div class="achieve-meta">
+                <span><i class="fa-solid fa-calendar-days"></i> Oct 2024</span>
+                <span><i class="fa-solid fa-graduation-cap"></i> Coursera / Univ. of Michigan</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievement Card 6 -->
+          <div class="achievement-card">
+            <div class="achieve-badge badge-orange">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <div class="achieve-content">
+              <span class="achieve-tag tag-orange"><i class="fa-solid fa-bullhorn"></i> Science Fair</span>
+              <h3 class="achieve-title">1st Prize &ndash; Regional Science &amp; Tech Exhibition</h3>
+              <p class="achieve-desc">
+                Presented an automated energy-saving system model with Arduino and sensors, securing the 1st place honor out of 40+ school exhibitions.
+              </p>
+              <div class="achieve-meta">
+                <span><i class="fa-solid fa-calendar-days"></i> 2023</span>
+                <span><i class="fa-solid fa-trophy"></i> State Science Congress</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SKILLS & TECHNOLOGIES SECTION
+         Programming languages, tools, and developer proficiencies
+         ======================================================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-pill">
+            <i class="fa-solid fa-laptop-code"></i> Technical Stack
+          </div>
+          <h2 class="section-title">Skills &amp; <span class="gradient-text">Proficiencies</span></h2>
+          <p class="section-subtitle">
+            Technologies, programming languages, development tools, and foundational concepts I work with.
+          </p>
+        </div>
+
+        <div class="skills-categories-grid">
+          <!-- Category 1: Frontend & Web -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon icon-cyan">
+                <i class="fa-solid fa-window-maximize"></i>
+              </div>
+              <div>
+                <h3 class="cat-title">Frontend &amp; Web Design</h3>
+                <span class="cat-count">4 Technologies</span>
+              </div>
+            </div>
+
+            <div class="skill-list">
+              <div class="skill-row">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-html5 text-orange"></i> HTML5 (Semantic &amp; SEO)</span>
+                  <span class="skill-pct">90%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill w-90"></div>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-css3-alt text-blue"></i> CSS3 (Flexbox, Grid, Animations)</span>
+                  <span class="skill-pct">85%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill w-85"></div>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-js text-yellow"></i> JavaScript (DOM &amp; ES6 Basics)</span>
+                  <span class="skill-pct">60%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill w-60"></div>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-mobile-screen text-emerald"></i> Responsive Web Design</span>
+                  <span class="skill-pct">85%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill w-85"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Programming Languages -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon icon-indigo">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div>
+                <h3 class="cat-title">Programming Languages</h3>
+                <span class="cat-count">4 Languages</span>
+              </div>
+            </div>
+
+            <div class="skill-list">
+              <div class="skill-row">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-python text-yellow"></i> Python (OOP &amp; Scripting)</span>
+                  <span class="skill-pct">80%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill w-80"></div>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-c text-purple"></i> C Language (Memory &amp; Pointers)</span>
+                  <span class="skill-pct">75%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill w-75"></div>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-terminal text-cyan"></i> C++ (Basics &amp; STL)</span>
+                  <span class="skill-pct">70%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill w-70"></div>
+                </div>
+              </div>
+
+              <div class="skill-row">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-database text-amber"></i> SQL Basics</span>
+                  <span class="skill-pct">65%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill w-65"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Tools & Developer Workflow -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon icon-emerald">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+              <div>
+                <h3 class="cat-title">Tools &amp; Workflow</h3>
+                <span class="cat-count">6 Tools</span>
+              </div>
+            </div>
+
+            <div class="tool-tags-grid">
+              <div class="tool-badge">
+                <i class="fa-brands fa-git-alt text-red"></i>
+                <span>Git</span>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-brands fa-github text-white"></i>
+                <span>GitHub</span>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-solid fa-laptop-code text-blue"></i>
+                <span>VS Code</span>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-brands fa-linux text-yellow"></i>
+                <span>Linux CLI</span>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-brands fa-figma text-purple"></i>
+                <span>Figma Basics</span>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-brands fa-chrome text-emerald"></i>
+                <span>DevTools</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Core Fundamentals & Soft Skills -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon icon-purple">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div>
+                <h3 class="cat-title">Core Fundamentals</h3>
+                <span class="cat-count">Foundational</span>
+              </div>
+            </div>
+
+            <div class="tool-tags-grid">
+              <div class="tool-badge">
+                <i class="fa-solid fa-diagram-project text-indigo"></i>
+                <span>Data Structures</span>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-solid fa-gears text-cyan"></i>
+                <span>Algorithms</span>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-solid fa-cubes text-emerald"></i>
+                <span>OOP Concepts</span>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-solid fa-people-group text-amber"></i>
+                <span>Team Collaboration</span>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-solid fa-lightbulb text-yellow"></i>
+                <span>Problem Solving</span>
+              </div>
+              <div class="tool-badge">
+                <i class="fa-solid fa-clock-rotate-left text-blue"></i>
+                <span>Quick Learner</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         COMMUNICATION DETAILS & CONTACT SECTION
+         Email, phone, social handles, and interactive contact form
+         ======================================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-pill">
+            <i class="fa-solid fa-envelope-open-text"></i> Let's Start a Conversation
+          </div>
+          <h2 class="section-title">Communication <span class="gradient-text">Details</span></h2>
+          <p class="section-subtitle">
+            Feel free to reach out for project collaborations, internship inquiries, technical discussions, or just to say hello!
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Left: Direct Communication Channels -->
+          <div class="contact-channels">
+            <h3 class="channels-title">
+              <i class="fa-solid fa-address-book text-indigo"></i> Get In Touch Directly
+            </h3>
+            <p class="channels-desc">
+              I am actively looking for mentorship, first-year summer internship opportunities, and collaborative student projects. You can reach me across any of the platforms below:
+            </p>
+
+            <div class="channel-cards-list">
+              <!-- Email Card -->
+              <a href="mailto:sonu.cs28@example.com" class="channel-card">
+                <div class="channel-icon icon-indigo">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="channel-body">
+                  <span class="channel-label">Direct Email</span>
+                  <strong class="channel-value">sonu.cs28@example.com</strong>
+                  <span class="channel-action"><i class="fa-solid fa-paper-plane"></i> Send an Email &rarr;</span>
+                </div>
+              </a>
+
+              <!-- Phone & WhatsApp Card -->
+              <a href="tel:+919876543210" class="channel-card">
+                <div class="channel-icon icon-emerald">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="channel-body">
+                  <span class="channel-label">Phone &amp; WhatsApp</span>
+                  <strong class="channel-value">+91 98765 43210</strong>
+                  <span class="channel-action"><i class="fa-brands fa-whatsapp"></i> Call / WhatsApp &rarr;</span>
+                </div>
+              </a>
+
+              <!-- LinkedIn Card -->
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="channel-card">
+                <div class="channel-icon icon-blue">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="channel-body">
+                  <span class="channel-label">LinkedIn Profile</span>
+                  <strong class="channel-value">linkedin.com/in/sonu-cs28</strong>
+                  <span class="channel-action"><i class="fa-solid fa-arrow-up-right-from-square"></i> Connect on LinkedIn &rarr;</span>
+                </div>
+              </a>
+
+              <!-- GitHub Card -->
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="channel-card">
+                <div class="channel-icon icon-purple">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="channel-body">
+                  <span class="channel-label">GitHub Repository</span>
+                  <strong class="channel-value">github.com/sonu-cs</strong>
+                  <span class="channel-action"><i class="fa-solid fa-code-fork"></i> Explore Code Repos &rarr;</span>
+                </div>
+              </a>
+
+              <!-- Location Card -->
+              <div class="channel-card no-hover">
+                <div class="channel-icon icon-cyan">
+                  <i class="fa-solid fa-map-pin"></i>
+                </div>
+                <div class="channel-body">
+                  <span class="channel-label">Current Location</span>
+                  <strong class="channel-value">New Delhi, Delhi NCR, India</strong>
+                  <span class="channel-status"><i class="fa-solid fa-earth-asia"></i> Timezone: IST (UTC +5:30)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Message Box (Pure HTML & CSS) -->
+          <div class="contact-form-card">
+            <h3 class="form-title">
+              <i class="fa-solid fa-comment-dots text-cyan"></i> Send Me a Message
+            </h3>
+            <p class="form-desc">
+              Have a question, feedback, or opportunity? Drop a note below and I will get back to you promptly.
+            </p>
+
+            <form class="contact-form" action="mailto:sonu.cs28@example.com" method="post" enctype="text/plain">
+              <!-- Name Input -->
+              <div class="form-group">
+                <label for="contact-name" class="form-label">
+                  <i class="fa-solid fa-user form-icon"></i> Your Name
+                </label>
+                <div class="input-wrapper">
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Aditi Sharma" required />
+                </div>
+              </div>
+
+              <!-- Email Input -->
+              <div class="form-group">
+                <label for="contact-email" class="form-label">
+                  <i class="fa-solid fa-at form-icon"></i> Your Email Address
+                </label>
+                <div class="input-wrapper">
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. aditi@company.org" required />
+                </div>
+              </div>
+
+              <!-- Subject Input -->
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">
+                  <i class="fa-solid fa-heading form-icon"></i> Subject
+                </label>
+                <div class="input-wrapper">
+                  <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="e.g. Summer Internship Opportunity / Mentorship" required />
+                </div>
+              </div>
+
+              <!-- Message Textarea -->
+              <div class="form-group">
+                <label for="contact-message" class="form-label">
+                  <i class="fa-solid fa-message form-icon"></i> Message
+                </label>
+                <div class="input-wrapper">
+                  <textarea id="contact-message" name="message" rows="5" class="form-input form-textarea" placeholder="Write your message here..." required></textarea>
+                </div>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+
+              <p class="form-note">
+                <i class="fa-solid fa-lock text-emerald"></i> Communication is private and delivered directly to my inbox.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================
+       FOOTER
+       Copyright, navigation quick links, and Back-to-Top
+       ======================================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#top" class="footer-logo">
+            <i class="fa-solid fa-code"></i> Sonu<span class="brand-dot">.dev</span>
+          </a>
+          <p class="footer-tagline">
+            First-Year Computer Science Undergraduate &bull; Dedicated to lifelong learning and building meaningful digital solutions.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <h4 class="footer-col-title"><i class="fa-solid fa-compass"></i> Navigation</h4>
+          <ul class="footer-nav">
+            <li><a href="#about"><i class="fa-solid fa-user"></i> About Me</a></li>
+            <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#experience"><i class="fa-solid fa-briefcase"></i> Experience</a></li>
+            <li><a href="#achievements"><i class="fa-solid fa-trophy"></i> Achievements</a></li>
+            <li><a href="#skills"><i class="fa-solid fa-laptop-code"></i> Skills</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h4 class="footer-col-title"><i class="fa-solid fa-link"></i> Profiles</h4>
+          <ul class="footer-nav">
+            <li><a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://leetcode.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-code"></i> LeetCode</a></li>
+            <li><a href="mailto:sonu.cs28@example.com"><i class="fa-solid fa-envelope"></i> Email</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; 2026 Sonu. Built with <i class="fa-solid fa-heart text-red"></i> using pure <strong>HTML5</strong> &amp; <strong>CSS3</strong>.
+        </p>
+
+        <a href="#top" class="back-to-top" title="Scroll back to top">
+          <i class="fa-solid fa-arrow-up"></i> Top
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
